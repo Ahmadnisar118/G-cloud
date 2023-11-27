@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+    <!-- Head -->
+    <head>
+        <meta charset="utf=8"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="fonts/fonts.css"/>
+        <title>Grandeur Cloud</title>
+    </head>
+
+    <!-- Head -->
+    <body>
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Header -->
+            <div class="header">
+                <!-- Logo -->
+                <div class="logo">
+                    <img src="images/logo.svg" width="150px" height="80px">
+                </div>
+
+                 
+                <!-- Selectors -->
+                <div class="selectors">
+                    <!-- Account Options -->
+                    <div class="selector">
+                        <!-- Selector Content Holder -->
+                        <div class="selector-holder">
+
+                            <!-- Selected Item -->
+                            <div class="transparent item" onclick="doDrop('account-options')">
+                                <!-- Item Content -->
+                                <div class="account">
+                                    <!-- Initials -->
+                                    <div class="account-initials">MH</div>
+                                </div>
+                            </div>
+
+                            <!-- Other Items -->
+                            <div class="items" id="account-options">
+                                <div class="item">
+                                    <!-- Text -->
+                                    <div class="text">Settings</div>
+                                </div>
+                                <div class="item">
+                                    <!-- Text -->
+                                    <div class="text">Logout</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Selector -->
+                    <div class="selector" style="margin-right: -80px">
+                        <!-- Selector Content Holder -->
+                        <div class="selector-holder">
+
+                            <!-- Selected Item -->
+                            <div class="selected item" onclick="doDrop('project-selector')">
+                                <!-- Item Content -->
+                                <div class="text">Switch Board</div>
+
+                                <!-- Image -->
+                                <div class="image">
+                                    <img src="images/down-icon.svg">
+                                </div>
+                            </div>
+
+                            <!-- Other Items -->
+                            <div class="items" id="project-selector">
+                                <div class="item">
+                                    <!-- Text -->
+                                    <div class="text">Switch DashBoard</div>
+                                </div>
+                                <div class="item">
+                                    <!-- Text -->
+                                    <div class="text">Add Project</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+            <!-- Content Holder -->
+            <div class="holder">
+
+                <!-- Inner -->
+                <div class="inner-holder">
+
+                    <!-- Page -->
+                    <div class="page">
+
+                        <!-- Left Side of Page -->
+                        <div class="left-side"></div>
+
+                        <!-- Right Side of Page -->
+                        <div class="right-side">
+
+                            <!-- Page Title -->
+                            <div class="title">Welcome, <span>Moiz</span></div>
+
+                            <!-- Page Description -->
+                            <div class="description">
+                                You can control your cloud IoT project from here. We have also prepared few quick statics for you
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="page">
+                        
+                        <!-- Left Side of Page -->
+                        <div class="left-side">
+
+                            <!-- Menu -->
+                            <div class="menu">
+                                <!-- Dashboard -->
+                                <div class="item selected">
+                                    <!-- Icon -->
+                                    <div class="icon">
+                                        <img src="images/dashboard-selected.svg">
+                                    </div>
+
+                                    <!-- Title -->
+                                    <div class="title">Dashboard</div>
+                                </div>
+
+                                <!-- Accounts -->
+                                <div class="item">
+                                    <!-- Icon -->
+                                    <div class="icon">
+                                        <img src="images/accounts.svg">
+                                    </div>
+
+                                    <!-- Title -->
+                                    <div class="title">Accounts</div>
+                                </div>
+
+                                <!-- Hosting -->
+                                <div class="item">
+                                    <!-- Icon -->
+                                    <div class="icon">
+                                        <img src="images/hosting.svg">
+                                    </div>
+
+                                    <!-- Title -->
+                                    <div class="title">Hosting</div>
+                                </div>
+
+                                <!-- Devices -->
+                                <div class="item">
+                                    <!-- Icon -->
+                                    <div class="icon">
+                                        <img src="images/devices.svg">
+                                    </div>
+
+                                    <!-- Title -->
+                                    <div class="title">Devices</div>
+                                </div>
+
+                                <!-- Settings -->
+                                <div class="item">
+                                    <!-- Icon -->
+                                    <div class="icon">
+                                        <img src="images/settings.svg">
+                                    </div>
+
+                                    <!-- Title -->
+                                    <div class="title">Settings</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Right Side of Page -->
+                        <div class="right-side">
+                            
+                            <!-- Tiles -->
+                            <div class="tiles">
+
+                                <!-- Accounts Tile -->
+                                <div class="tile third">
+                                    <div class="tile-inner">
+                                        <div class="icon">
+                                            <img src="images/accounts-tile.svg">
+                                        </div>
+                                        <div class="text">
+                                            <div class="title">Total User Accounts</div>
+                                            <div class="count">100</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Devices Tile -->
+                                <div class="tile third">
+                                    <div class="tile-inner">
+                                        <div class="icon">
+                                            <img src="images/devices-tile.svg">
+                                        </div>
+                                        <div class="text">
+                                            <div class="title">Total User Accounts</div>
+                                            <div class="count">100</div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Connected Tile -->
+                                <div class="tile third">
+                                    <div class="tile-inner">
+                                        <div class="icon">
+                                            <img src="images/connected-tile.svg">
+                                        </div>
+                                        <div class="text">
+                                            <div class="title">Total User Accounts</div>
+                                            <div class="count">100</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!-- Section -->
+                            <div class="section">
+
+                                <!-- Inner -->
+                                <div class="section-inner">
+
+                                    <!-- Head of Section -->
+                                    <div class="head">
+
+                                        <!-- Title -->
+                                        <div class="title">Devices Online Analytics</div>
+                
+                                        <!-- Description -->
+                                        <div class="description">
+                                            Following is the trend of how your devices remained online over the year.
+                                        </div>
+                                    </div>
+
+                                    <!-- Graph -->
+                                    <div class="graph">
+
+                                        <!-- Canvas -->
+                                        <canvas id="analytics"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <script src="js/chart.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>        
